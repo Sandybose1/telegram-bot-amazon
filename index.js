@@ -55,7 +55,7 @@ if (!process.env.GROUP_REPLACEMENT_MESSAGE) {
     "Missing GROUP_REPLACEMENT_MESSAGE env variable, using the default one"
   );
   group_replacement_message =
-    "Message by {USER} with Amazon affiliate link:\n\n{ORIGINAL_MESSAGE}";
+    "Message by {@Sandy_Bose} with Amazon affiliate link:\n\n{ORIGINAL_MESSAGE}";
 } else {
   group_replacement_message = process.env.GROUP_REPLACEMENT_MESSAGE;
 }
